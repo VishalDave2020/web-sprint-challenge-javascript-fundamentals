@@ -26,14 +26,25 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
+.map is a higher-level function that takes 2 arguments.
+.forEach is a iterator function.
 
-2. Explain the difference between a callback and a higher order function.
+2. Explain the difference between a callback and a higher order function. 
+a  callback lives within the higher order code.
 
 3. What is closure?
+A function in its lexical enviornment. Supplied with necessary memories or syntax to function.
 
 4. Describe the four rules of the 'this' keyword.
+-global scope- provided to us essentially. the this creation.
+-implicit binding- whenever a function is called by a preceding dot, the object left of the dot gets 'this'
+-explicit binding- requires specifically passing argument as the 'this'
+ keyword in any given function using 'call', 'apply' or 'bind'.
+ -new binding- using the 'new' keyword creates a new object, that 'this' will reference.
 
 5. Why do we need super() in an extended class?
+-It allows us to inherit parent attributes.
+
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
@@ -43,12 +54,12 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 > This section should include instruction for the sprint challenge. These should only cover things that are _not_ being evaluated by the challenge itself, e.g. environment/project setup, link to a starter project, etc. In general, this will be the following Git fork, clone, branch, commit, push, create pull request flow, though may need to be adapted for some specific challenges.
 
-- [ ] Create a forked copy of this project
-- [ ] Add your team lead as collaborator on Github
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
-- [ ] Push commits: git push origin `<firstName-lastName>`
+- [X] Create a forked copy of this project
+- [X] Add your team lead as collaborator on Github
+- [X] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+- [X] Push commits: git push origin `<firstName-lastName>`
 
 ### Task 2: Project Requirements
 
